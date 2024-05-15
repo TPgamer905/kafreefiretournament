@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+ <title>PRIZEPOOL</title>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+*{
+ margin:0;
+ padding: 0;
+ outline: 0;
+}
+
+table{
+ position: absolute;
+ z-index: 2;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+ width: 60%; 
+ border-collapse: collapse;
+ border-spacing: 0;
+ box-shadow: 0 2px 15px rgba(64,64,64,.7);
+ border-radius: 12px 12px 0 0;
+ overflow: hidden;
+
+}
+td , th{
+ padding: 15px 20px;
+ text-align: center;
+ 
+
+}
+th{
+ background-color: #ba68c8;
+ color: #fafafa;
+ font-family: 'Open Sans',Sans-serif;
+ font-weight: 200;
+ text-transform: uppercase;
+
+}
+tr{
+ width: 100%;
+ background-color: #fafafa;
+ font-family: 'Montserrat', sans-serif;
+}
+tr:nth-child(even){
+ background-color: #eeeeee;
+}
+.back-video{
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+
+    }
+    .content h1{
+        font-size: 100px;
+        color: #fff;
+        font-weight: 600;
+        transition: 0.5s;
+        text-align: center;
+        font-family: arial;
+        margin-top: 100px;
+    }
+    .content h1:hover{
+        -webkit-text-stroke: 5px rgb(255, 255, 255);
+        color: transparent;
+        cursor: pointer;
+    }
+    button {
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+  width: 25%;
+  height: 5%;
+  display: block;
+  margin-top: 25%;
+  margin-left: 40%;
+}
+button:hover {
+  color: #fff;
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
+.register {
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+
+}
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333333;
+  transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: #009578;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+    </style>
+    <script>
+        window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+
+    </script>
+
+</head>
+
+<body>
+    
+    <div class="content">
+            <h1>FREE FIRE TOURNAMENTS</h1>
+        </div>
+
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="back-video" width="100%">
+            <source src="<video autoplay loop muted plays-inline class="back-video" width="100%">
+                <source src="file:///C:/Users/chaitra.shamu/Desktop/prajithcods/video/4K%20Anime%20Purple%20Evening%20Sky%20-%20Relaxing%20Live%20Wallpaper%20-%201%20Hour%20Screensaver%20-%20Infinite%20Loop%20!.mp4" type="video/mp4">
+            </video>
+            </div>
+
+
+  <div class="filter">
+
+ </div>
+
+ <table >
+
+ 
+
+ <tr>
+
+ <th>PRIZEPOOL</th>
+
+ <th>JOIN</th>
+
+
+ </tr>
+
+
+  <tr>
+
+ <td>499rs</td>
+
+ <td>15rs</td>
+
+
+ </tr>
+ 
+ <div class="register">
+    <a href="C:\Users\chaitra.shamu\Documents\cods\payment.html">
+        <button type="submit">play now</button>
+        
+        </div>
+ </table>
+ <br>
+ 
+<div class="loader"></div>
+
+ </body>
+
+</html>
+
